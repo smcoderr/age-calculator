@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Age Calculator | SEO Optimized</title>
+
+    <!-- Meta Description (Important for SEO) -->
+    <meta
+      name="description"
+      content="Calculate your age easily using our JavaScript Age Calculator. Quick, accurate, and user-friendly tool."
+    />
+
+    <!-- Open Graph (for Social Sharing like Facebook) -->
+    <meta property="og:title" content="JavaScript Age Calculator" />
+    <meta
+      property="og:description"
+      content="Calculate your age easily using our JavaScript Age Calculator. Quick, accurate, and user-friendly tool."
+    />
+    <meta property="og:url" content="https://yourwebsite.com/age-calculator" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/jsimg.webp" />
+
+    <!-- Twitter Card (for Social Sharing like Twitter) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JavaScript Age Calculator" />
+    <meta
+      name="twitter:description"
+      content="Calculate your age easily using our JavaScript Age Calculator. Quick, accurate, and user-friendly tool."
+    />
+    <meta name="twitter:image" content="./img/jsimg.webp" />
+    <meta name="twitter:site" content="@yourTwitterHandle" />
+
+    <!-- Canonical URL (Important for SEO) -->
+    <link rel="canonical" href="https://yourwebsite.com/age-calculator" />
+
+    <!-- Schema Markup (Structured Data for Search Engines) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "JavaScript Age Calculator",
+        "description": "Calculate your age easily using our JavaScript Age Calculator. Quick, accurate, and user-friendly tool.",
+        "url": "https://yourwebsite.com/age-calculator",
+        "image": "https://yourwebsite.com/og-image.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Sourav M"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Your Company",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://yourwebsite.com/logo.jpg"
+          }
+        }
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/logo.ico" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <h1>Javascript <br /><span>Age calculator</span></h1>
+        <div class="input-box">
+          <label for="date" class="visually-hidden">Enter your birthdate</label>
+          <input type="date" id="date" />
+          <button onclick="calculateAge()">calculator</button>
+        </div>
+        <p id="result"></p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
